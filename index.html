@@ -1,0 +1,139 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="./styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/x-icon" href="public/web.svg">
+    </head>
+    <body>
+        <header>
+            <span class="trailing-cursor">Romain David / Portfolio</span>
+            <nav>
+                <ul>
+                    <li>
+                        <button 
+                            class="material-symbols-outlined"
+                            onclick="jumpTo('hero')"
+                            title="Home">
+                            home
+                        </button>
+                    </li>
+                    <li>
+                        <button 
+                            class="material-symbols-outlined"
+                            onclick="jumpTo('tech')"
+                            title="Home">
+                            settings
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                            class="material-symbols-outlined"
+                            onclick="jumpTo('projects')"
+                            title="Side-projects">
+                            folder
+                        </button>
+                    </li>
+                    <li>
+                        <button 
+                            class="material-symbols-outlined"
+                            onclick="jumpTo('jobs')"
+                            title="Jobs">
+                            work
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="hero">
+                <h1># Hi, I'm Romain. Nice to meet you!</h1>
+                <h2>I'm a french full-stack web developer.</h2>
+            </section>
+            <span>## Stacks</span>
+            <section id="tech">
+                <div class="card">
+                    <img src="public/html.svg"/>
+                    <span>HTML</span>
+                </div>
+                <div class="card">
+                    <img src="public/css.svg"/>
+                    <span>CSS</span>
+                </div>
+                <div class="card">
+                    <img src="public/javascript.svg"/>
+                    <span>JavaScript</span>
+                </div>
+                <div class="card">
+                    <img src="public/typescript.svg"/>
+                    <span>TypeScript</span>
+                </div>
+                <div class="card">
+                    <img src="public/nodejs.svg"/>
+                    <span>NodeJS</span>
+                </div>
+                <div class="card">
+                    <img src="public/angular.svg"/>
+                    <span>Angular</span>
+                </div>
+                <div class="card">
+                    <img src="public/express.svg"/>
+                    <span>Express</span>
+                </div>
+                <div class="card">
+                    <img src="public/mongoose.svg"/>
+                    <span>Mongoose</span>
+                </div>
+                <div class="card">
+                    <img src="public/mongodb.svg"/>
+                    <span>MongoDB</span>
+                </div>
+                <div class="card">
+                    <img src="public/windows.svg"/>
+                    <span>Windows</span>
+                </div>
+                <div class="card">
+                    <img src="public/linux.svg"/>
+                    <span>Linux</span>
+                </div>
+                <div class="card">
+                    <img src="public/git.svg"/>
+                    <span>Git</span>
+                </div>
+                <div class="card">
+                    <img src="public/github.svg"/>
+                    <span>Github</span>
+                </div>
+            </section>
+            <span>## Projects</span>
+            <section id="projects">
+                <p>Nothing to see here... For the moment.</p>
+            </section>
+            <span>## Jobs</span>
+            <section id="jobs">
+                <div class="card">
+                    <img src="public/titan.png"/>
+                    <h1>Full-stack web developer</h1>
+                    <h3><span class="material-symbols-outlined">calendar_month</span>Since 2023/08/01<h3>
+                    <h2><a href="https://urban-system.eu/" target="_blank">C.E.I. - Urban System</a></h2>
+                    <p>
+                        Start of the project of porting the Titan application in web mode (SAAS). 
+                        Development of the application based on the MEAN stack. 
+                        Learning of the technology stack on its own. (Some side tasks such as developing Java library for the Titan Mobile application.)
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="public/titan.png"/>
+                    <h1>Trainee</h1>
+                    <h3><span class="material-symbols-outlined">calendar_month</span>2022/04/01 - 2022/06/30<h3>
+                    <h2><a href="https://urban-system.eu/" target="_blank">C.E.I. - Urban System</a></h2>
+                    <p>
+                        Research and development on a proof-of-concept of point-of-sale terminal with Windev and Webdev.
+                        The main challenge is to study the viability of the project and the ability of the technology stack 
+                        to communicate with different devices connected to the customer.
+                    </p>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="./script.js"></script>
+</html>
