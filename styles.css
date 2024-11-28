@@ -29,7 +29,10 @@ button.material-symbols-outlined
     place-items: center;
     width: 40px;
     transition: background-color ease 200ms;
+}
 
+button
+{
     &:hover
     {
         background-color: #0001;
@@ -157,6 +160,80 @@ section#hero
             height: 2px;
             margin-left: 2px;
             width: 16px;
+        }
+    }
+}
+
+section#projects
+{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    & > div.card
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        &:hover
+        {
+            transform: none;
+        }
+
+        & > div
+        {
+            gap: 4px;
+            display: flex;
+
+            & > span.badge
+            {
+                border-radius: 8px;
+                border: solid 1px;
+                box-sizing: border-box;
+                color: #999;
+                font-size: 12px;
+                height: 16px;
+                padding: 2px 4px;
+
+                &:first-child
+                {
+                    color: #ff9100;
+                }
+
+                &:nth-child(2)
+                {
+                    color: #00f;
+                }
+
+                &:last-child
+                {
+                    color: rgb(255, 208, 0);
+                }
+            }
+
+            & > a > button
+            {
+                align-items: center;
+                border-radius: 20px;
+                box-sizing: border-box;
+                display: flex;
+                font-size: 16px;
+                gap: 4px;
+                height: 40px;
+                padding: 0 8px;
+
+                & > span.material-symbols-outlined
+                {
+                    font-size: inherit;
+                }
+            }
+
+            &:last-child
+            {
+                gap: 16px;
+                justify-content: end;
+            }
         }
     }
 }
