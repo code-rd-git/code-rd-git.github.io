@@ -12,7 +12,7 @@
                     <li>
                         <button 
                             class="material-symbols-outlined"
-                            onclick="jumpTo('hero')"
+                            onclick="document.getElementById('main').scrollTo(document.getElementById('hero').offsetTop, top)"
                             title="Home">
                             home
                         </button>
@@ -20,7 +20,7 @@
                     <li>
                         <button 
                             class="material-symbols-outlined"
-                            onclick="jumpTo('articles')"
+                            onclick="document.getElementById('main').scrollTo(document.getElementById('articles').offsetTop, top)"
                             title="Articles">
                             article
                         </button>
@@ -28,7 +28,7 @@
                     <li>
                         <button 
                             class="material-symbols-outlined"
-                            onclick="jumpTo('tech')"
+                            onclick="document.getElementById('main').scrollTo(document.getElementById('tech').offsetTop, top)"
                             title="Stacks">
                             settings
                         </button>
@@ -36,7 +36,7 @@
                     <li>
                         <button
                             class="material-symbols-outlined"
-                            onclick="jumpTo('projects')"
+                            onclick="document.getElementById('main').scrollTo(document.getElementById('projects').offsetTop, top)"
                             title="Side-projects">
                             folder
                         </button>
@@ -44,7 +44,7 @@
                     <li>
                         <button 
                             class="material-symbols-outlined"
-                            onclick="jumpTo('jobs')"
+                            onclick="document.getElementById('main').scrollTo(document.getElementById('jobs').offsetTop, top)"
                             title="Jobs">
                             work
                         </button>
@@ -73,7 +73,7 @@
                     <div>
                         <a href="https://github.com/code-rd-git/code-rd-git.github.io" target="_blank">
                             <button>
-                                <span class="material-symbols-outlined">open_in_new</span> Show project
+                                <span class="material-symbols-outlined">open_in_new</span> Show repo
                             </button>
                         </a>
                         <a  href="https://code-rd-git.github.io/" target="_blank">
@@ -85,60 +85,7 @@
                 </div>
             </section>
             <span><span class="material-symbols-outlined">settings</span> Stacks</span>
-            <section id="tech">
-                <a class="card" href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" title="Click to access HTML documentation">
-                    <img src="public/html.svg"/>
-                    <span>HTML</span>
-                </a>
-                <a class="card" href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank" title="Click to access CSS documentation">
-                    <img src="public/css.svg"/>
-                    <span>CSS</span>
-                </a>
-                <a class="card" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank"title="Click to access JavaScript documentation">
-                    <img src="public/javascript.svg"/>
-                    <span>JavaScript</span>
-                </a>
-                <a class="card" href="https://www.typescriptlang.org/" target="_blank" title="Click to access Typescript documentation">
-                    <img src="public/typescript.svg"/>
-                    <span>TypeScript</span>
-                </a>
-                <a class="card" href="https://nodejs.org/" target="_blank" title="Click to access NodeJS documentation">
-                    <img src="public/nodejs.svg"/>
-                    <span>NodeJS</span>
-                </a>
-                <a class="card" href="https://angular.dev/" target="_blank" title="Click to access Angular documentation"/>
-                    <img src="public/angular.svg">
-                    <span>Angular</span>
-                </a>
-                <a class="card" href="https://expressjs.com/" target="_blank" title="Click to access ExpressJS documentation">
-                    <img src="public/express.svg"/>
-                    <span>Express</span>
-                </a>
-                <a class="card" href="https://mongoosejs.com/" target="_blank" title="Click to access Mongoose documentation">
-                    <img src="public/mongoose.svg"/>
-                    <span>Mongoose</span>
-                </a>
-                <a class="card" href="https://www.mongodb.com/" target="_blank" title="Click to access MongoDB documentation">
-                    <img src="public/mongodb.svg"/>
-                    <span>MongoDB</span>
-                </a>
-                <a class="card" href="https://www.microsoft.com/fr-fr/windows" target="_blank" title="Click to access Windows documentation">
-                    <img src="public/windows.svg"/>
-                    <span>Windows</span>
-                </a>
-                <a class="card" href="https://www.linux.org/" target="_blank" title="Click to access Linux documentation">
-                    <img src="public/linux.svg"/>
-                    <span>Linux</span>
-                </a>
-                <a class="card" href="https://git-scm.com/" target="_blank" title="Click to access Git documentation">
-                    <img src="public/git.svg"/>
-                    <span>Git</span>
-                </a>
-                <a class="card" href="https://github.com/" target="_blank" title="Click to access Github documentation">
-                    <img src="public/github.svg"/>
-                    <span>Github</span>
-                </a>
-            </section>
+            <section id="tech"></section>
             <span><span class="material-symbols-outlined">work</span> Jobs</span>
             <section id="jobs">
                 <div class="card">

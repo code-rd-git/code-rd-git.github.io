@@ -1,0 +1,72 @@
+[
+    {
+        "title": "HTML",
+        "image": "./public/html.svg",
+        "link": "https://developer.mozilla.org/fr/docs/Web/HTML/"
+    },
+    {
+        "title": "CSS",
+        "image": "./public/css.svg",
+        "link": "https://developer.mozilla.org/fr/docs/Web/CSS/"
+    },
+    {
+        "title": "JavaScript",
+        "image": "./public/javascript.svg",
+        "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript/"
+    },
+    {
+        "title": "TypeScript",
+        "image": "./public/typescript.svg",
+        "link": "https://www.typescriptlang.org/"
+    },
+    {
+        "title": "NodeJS",
+        "image": "./public/nodejs.svg",
+        "link": "https://nodejs.org/"
+    },
+    {
+        "title": "Angular",
+        "image": "./public/angular.svg",
+        "link": "https://angular.dev/"
+    },
+    {
+        "title": "Angular Material",
+        "image": "./public/angular-material.png",
+        "link": "https://material.angular.io/"
+    },
+    {
+        "title": "Express",
+        "image": "./public/express.svg",
+        "link": "https://expressjs.com/"
+    },
+    {
+        "title": "Mongoose",
+        "image": "./public/mongoose.svg",
+        "link": "https://mongoosejs.com/"
+    },
+    {
+        "title": "MongoDB",
+        "image": "./public/mongodb.svg",
+        "link": "https://www.mongodb.com/"
+    },
+    {
+        "title": "Windows",
+        "image": "./public/windows.svg",
+        "link": "https://www.microsoft.com/fr-fr/windows/"
+    },
+    {
+        "title": "Linux",
+        "image": "./public/linux.svg",
+        "link": "https://www.linux.org/"
+    },
+    {
+        "title": "Git",
+        "image": "./public/git.svg",
+        "link": "https://git-scm.com/"
+    },
+    {
+        "title": "Github",
+        "image": "./public/github.svg",
+        "link": "https://github.com/"
+    }
+]

@@ -129,11 +129,12 @@ main
     box-shadow: 1px 2px 2px 3px#0001;
     overflow: hidden;
     padding: 16px;
-    transition: transform ease 200ms;
+    transition: all ease 200ms;
 
     &:hover
     {
-        transform: scale(1.05);
+        transform: scale(1.01);
+        box-shadow: 2px 3px 3px 4px#0001;
     }
 }
 
@@ -175,11 +176,6 @@ section#projects
         display: flex;
         flex-direction: column;
         gap: 4px;
-
-        &:hover
-        {
-            transform: none;
-        }
 
         & > div
         {
@@ -278,11 +274,6 @@ section#jobs
         grid-template-columns: 160px 3fr min-content;
         grid-template-rows: 24px 16px 16px 1fr;
         height: 192px;
-
-        &:hover
-        {
-            transform: scale(1.01);
-        }
 
 
         & > img
