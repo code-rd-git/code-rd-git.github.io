@@ -165,7 +165,7 @@ section#hero
     }
 }
 
-section#projects
+section#project
 {
     display: grid;
     gap: 24px;
@@ -261,7 +261,7 @@ section#tech
     }
 }
 
-section#jobs
+section#job
 {
     display: grid;
     gap: 24px;

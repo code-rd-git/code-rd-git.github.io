@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Full-stack web developer",
+        "image": "public/titan.png",
+        "society": {
+            "name": "C.E.I. - Urban System",
+            "link": "https://urban-system.eu/"
+        },
+        "time": {
+            "start": "2023-08-01",
+            "end": null
+        },
+        "description": "Start of the project of porting the Titan application in web mode (SAAS). Development of the application based on the MEAN stack. Learning of the technology stack on its own. (Some side tasks such as developing Java library for the Titan Mobile application.)"
+    },
+    {
+        "title": "Trainee",
+        "image": "public/titan.png",
+        "society": {
+            "name": "C.E.I. - Urban System",
+            "link": "https://urban-system.eu/"
+        },
+        "time": {
+            "start": "2022-04-01",
+            "end": "2022-06-30"
+        },
+        "description": "Research and development on a proof-of-concept of point-of-sale terminal with Windev and Webdev. The main challenge is to study the viability of the project and the ability of the technology stack to communicate with different devices connected to the customer."
+    }
+]
